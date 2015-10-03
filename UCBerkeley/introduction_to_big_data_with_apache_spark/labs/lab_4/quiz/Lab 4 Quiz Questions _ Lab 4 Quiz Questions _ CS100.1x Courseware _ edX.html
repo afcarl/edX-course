@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<!-- saved from url=(0135)https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/ -->
+<html lang="en"><!--<![endif]--><head dir="ltr"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/1beac94c95"></script><script src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/nr-632.min.js"></script><script type="text/javascript" async="" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/linkid.js"></script><script type="text/javascript" async="" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/dj_.js"></script><script type="text/javascript" async="" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/gtm.js"></script><script type="text/javascript" async="" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/7299.js"></script><script type="text/javascript" async="" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/analytics.js"></script><script type="text/javascript" async="" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/fbds.js"></script><script type="text/javascript" async="" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/analytics.min.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XA4GVl5ACwAEV1JQAA=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,2:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,2:24,ee:"QJf3ax"}],9:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,2:24,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,2:24,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"1beac94c95","agent":"js-agent.newrelic.com/nr-632.min.js","transactionName":"NQQGYUZWDUNSVUMPWQxOIkBaVBdZXFgYBVkXExdQQ1YRVR1AXgNBEVsNW1BSGw==","applicationID":"3343327","errorBeacon":"bam.nr-data.net","applicationTime":345}</script>
+
+
+
+
+
+
+
+  <title>Lab 4 Quiz Questions | Lab 4 Quiz Questions | CS100.1x Courseware | edX</title>
+
+      <script type="text/javascript">
+        /* immediately break out of an iframe if coming from the marketing website */
+        (function(window) {
+          if (window.location !== window.top.location) {
+            window.top.location = window.location;
+          }
+        })(this);
+      </script>
+
+  <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/saved_resource"></script>
+
+  <link rel="icon" type="image/x-icon" href="https://d37djvu3ytnwxt.cloudfront.net/static/images/favicon.c074c912999f.ico">
+
+  
+  
+
+    <link href="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/lms-style-vendor.c29dfc26527f.css" rel="stylesheet" type="text/css">
+
+
+
+  
+  
+
+    <link href="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/lms-main.2e7aa05ab0b8.css" rel="stylesheet" type="text/css">
+
+
+
+
+    
+    <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/lms-main_vendor.c1170b9488ac.js" charset="utf-8"></script>
+
+
+
+  <script>
+    window.baseUrl = "https://d37djvu3ytnwxt.cloudfront.net/static/";
+    (function (require) {
+        var urlArgs = "v=9ada9d6";
+      require.config({
+          baseUrl: baseUrl,
+          urlArgs: urlArgs
+      });
+    }).call(this, require || RequireJS.require);
+  </script>
+  <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/require-config-lms.14492589b204.js"></script>
+
+  
+
+  
+
+    <link href="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/lms-style-course-vendor.d65f103108eb.css" rel="stylesheet" type="text/css">
+
+
+
+
+  
+
+    <link href="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/lms-course.b3908f49bc46.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/split.1e256a271150.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/jquery.truncate.b81308a54759.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/jquery.ajaxfileupload.27e7569a4c1e.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/Markdown.Converter.33f02cbe2eb8.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/Markdown.Sanitizer.253c591d1f95.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/Markdown.Editor.dfc3093a1101.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/jquery.autocomplete.3bd10d7510d2.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/jquery.timeago.9605aaf0437d.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/jquery.timeago.locale.b54a9c010cd6.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/mustache.2aa68bb79181.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/URI.min.03b89112e46e.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/backbone-min.752b6162850f.js"></script>
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/tooltip_manager.c80266d685f1.js"></script>
+
+<link href="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/jquery.autocomplete.09a0b34739a2.css" rel="stylesheet" type="text/css">
+
+
+  
+
+
+
+  
+  
+
+
+  <script src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/1743970571.js"></script>
+
+  <!-- begin Segment.io -->
+<script type="text/javascript">
+  // Asynchronously load Segment.io's analytics.js library
+  window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",
+  analytics.load("8fncv13bt5");
+  analytics.page();
+
+    analytics.identify("7109524", {
+      email: "tuanvu216@yahoo.com",
+      username: "tuanvu216"
+    });
+</script>
+<!-- end Segment.io -->
+
+
+  <meta name="path_prefix" content="">
+  <meta name="google-site-verification" content="_mipQ4AtZQDNmbtOkwehQDOgCxUUV2fb_C0b6wbiRHY">
+
+  
+
+
+<style type="text/css" id="ki-n19-n2"></style><style type="text/css" id="ki-n19-nl"></style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">div.MathJax_MathML {text-align: center; margin: .75em 0px; display: block!important}
+.MathJax_MathML {font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+span.MathJax_MathML {display: inline!important}
+.MathJax_mmlExBox {display: block!important; overflow: hidden; height: 1px; width: 60ex; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0}
+[class="MJX-tex-oldstyle"] {font-family: MathJax_Caligraphic, MathJax_Caligraphic-WEB}
+[class="MJX-tex-oldstyle-bold"] {font-family: MathJax_Caligraphic, MathJax_Caligraphic-WEB; font-weight: bold}
+[class="MJX-tex-caligraphic"] {font-family: MathJax_Caligraphic, MathJax_Caligraphic-WEB}
+[class="MJX-tex-caligraphic-bold"] {font-family: MathJax_Caligraphic, MathJax_Caligraphic-WEB; font-weight: bold}
+@font-face /*1*/ {font-family: MathJax_Caligraphic-WEB; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf')}
+@font-face /*2*/ {font-family: MathJax_Caligraphic-WEB; font-weight: bold; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf')}
+[mathvariant="double-struck"] {font-family: MathJax_AMS, MathJax_AMS-WEB}
+[mathvariant="script"] {font-family: MathJax_Script, MathJax_Script-WEB}
+[mathvariant="fraktur"] {font-family: MathJax_Fraktur, MathJax_Fraktur-WEB}
+[mathvariant="bold-script"] {font-family: MathJax_Script, MathJax_Caligraphic-WEB; font-weight: bold}
+[mathvariant="bold-fraktur"] {font-family: MathJax_Fraktur, MathJax_Fraktur-WEB; font-weight: bold}
+[mathvariant="monospace"] {font-family: monospace}
+[mathvariant="sans-serif"] {font-family: sans-serif}
+[mathvariant="bold-sans-serif"] {font-family: sans-serif; font-weight: bold}
+[mathvariant="sans-serif-italic"] {font-family: sans-serif; font-style: italic}
+[mathvariant="sans-serif-bold-italic"] {font-family: sans-serif; font-style: italic; font-weight: bold}
+@font-face /*3*/ {font-family: MathJax_AMS-WEB; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf')}
+@font-face /*4*/ {font-family: MathJax_Script-WEB; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf')}
+@font-face /*5*/ {font-family: MathJax_Fraktur-WEB; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf')}
+@font-face /*6*/ {font-family: MathJax_Fraktur-WEB; font-weight: bold; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf')}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?rev=2.4-beta-2') format('opentype')}
+@font-face {font-family: MathJax_Main-bold; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?rev=2.4-beta-2') format('opentype')}
+@font-face {font-family: MathJax_Main-italic; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?rev=2.4-beta-2') format('opentype')}
+@font-face {font-family: MathJax_Math-italic; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?rev=2.4-beta-2') format('opentype')}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?rev=2.4-beta-2') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?rev=2.4-beta-2') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?rev=2.4-beta-2') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?rev=2.4-beta-2') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?rev=2.4-beta-2') format('woff'), url('https://cdn.mathjax.org/mathjax/2.4-latest/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?rev=2.4-beta-2') format('opentype')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style><script src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/formula_equation_preview.20bb07447f6b.js" type="text/javascript"></script></head>
+
+<body class="ltr view-incourse view-courseware courseware  lang_en"><div id="MathJax_Message" style="display: none;"></div><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="mf_div" style="display: none;"></div>
+  <div class="window-wrap" dir="ltr">
+    <a class="nav-skip" href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#seq_content">Skip to main content</a>
+
+        
+
+
+
+
+
+
+
+
+
+<header class="global slim" aria-label="Main" role="banner">
+  <div class="wrapper-header nav-container">
+    <h1 class="logo" itemscope="" itemtype="http://schema.org/Organization">
+      <a href="https://www.edx.org/" title="Home page" itemprop="url">
+        
+            <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/edx-logo-77x36.png" alt="edX" title="edX" itemprop="url">
+            <span class="sr">Home Page</span>
+        
+      </a>
+    </h1>
+
+    <h2 class="course-header"><span class="provider">BerkeleyX:</span> CS100.1x Introduction to Big Data with Apache Spark</h2>
+
+
+    <ul class="user">
+      <li class="primary">
+        <a href="https://courses.edx.org/dashboard" class="user-link">
+          <i class="icon fa fa-home" aria-hidden="true"></i>
+          <span class="sr">Dashboard for:</span>
+          <div>tuanvu216</div>
+        </a>
+      </li>
+      <li class="primary">
+        <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#" class="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr">More options dropdown</span> ▾</a>
+        <ul class="dropdown-menu" aria-label="More Options" role="menu">
+          
+            <li><a href="https://courses.edx.org/account/settings">Account Settings</a></li>
+            <li><a href="https://courses.edx.org/u/tuanvu216">My Profile</a></li>
+          
+          <li><a href="https://courses.edx.org/logout" role="menuitem">Sign Out</a></li>
+        </ul>
+      </li>
+    </ul>
+
+
+  </div>
+</header>
+<!--[if lte IE 9]>
+<div class="ie-banner" aria-hidden="true"><strong>Warning:</strong> Your browser is not fully supported. We strongly recommend using <a href="https://www.google.com/chrome" target="_blank">Chrome</a> or <a href="http://www.mozilla.org/firefox" target="_blank">Firefox</a>.</div>
+<![endif]-->
+
+
+
+
+
+
+<div class="help-tab">
+  <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#help-modal" rel="leanModal" role="button">Help</a>
+</div>
+
+<section id="help-modal" class="modal" aria-hidden="true" role="dialog" aria-label="edX Help">
+  <div class="inner-wrapper" id="help_wrapper">
+    <button class="close-modal " tabindex="0">
+      <i class="icon fa fa-remove"></i>
+      <span class="sr">
+        Close
+      </span>
+    </button>
+
+    <header>
+      <h2>
+	<span class="edx">edX</span> Help
+      </h2>
+      <hr>
+    </header>
+
+
+
+    <p>For <strong>questions on course lectures, homework, tools, or materials for this course</strong>, post in the <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/discussion/forum" target="_blank">course discussion forum</a>.
+    </p>
+
+    <p>Have <strong>general questions about edX</strong>? You can find lots of helpful information in the edX <a href="https://www.edx.org/student-faq" target="_blank">FAQ</a>.
+      </p>
+
+    <p>Have a <strong>question about something specific</strong>? You can contact the edX general support team directly:</p>
+    <hr>
+
+    <div class="help-buttons">
+      <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#" id="feedback_link_problem">Report a problem</a>
+      <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#" id="feedback_link_suggestion">Make a suggestion</a>
+      <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#" id="feedback_link_question">Ask a question</a>
+    </div>
+
+    <p class="note">Please note: The edX support team is English speaking. While we will do our best to address your inquiry in any language, our responses will be in English.</p>
+
+  </div>
+
+  <div class="inner-wrapper" id="feedback_form_wrapper">
+    <button class="close-modal">
+      <i class="icon fa fa-remove"></i>
+      <span class="sr">
+        Close
+      </span>
+    </button>
+
+    <header></header>
+
+    <form id="feedback_form" class="feedback_form" method="post" data-remote="true" action="https://courses.edx.org/submit_feedback">
+      <div id="feedback_error" class="modal-form-error" tabindex="-1"></div>
+      <label data-field="subject" for="feedback_form_subject">Briefly describe your issue*</label>
+      <input name="subject" type="text" id="feedback_form_subject" aria-required="true">
+      <label data-field="details" for="feedback_form_details">Tell us the details*
+<span class="tip">Include error messages, steps which lead to the issue, etc</span></label>
+      <textarea name="details" id="feedback_form_details" aria-required="true"></textarea>
+      <input name="issue_type" type="hidden">
+      <input name="course_id" type="hidden" value="BerkeleyX/CS100.1x/1T2015">
+      <div class="submit">
+        <input name="submit" type="submit" value="Submit" id="feedback_submit">
+      </div>
+    </form>
+  </div>
+
+  <div class="inner-wrapper" id="feedback_success_wrapper" tabindex="0">
+    <button class="close-modal" tabindex="0">
+      <i class="icon fa fa-remove"></i>
+      <span class="sr">
+        Close
+      </span>
+    </button>
+
+    <header>
+      <h2>Thank You!</h2>
+      <hr>
+    </header>
+
+    
+    <p>
+    Thank you for your inquiry or feedback.  We typically respond to a request within one business day (Monday to Friday, 13:00 UTC to 21:00 UTC.) In the meantime, please review our <a href="https://www.edx.org/student-faq" target="_blank" id="feedback-faq-link" tabindex="0">detailed FAQs</a> where most questions have already been answered.
+    </p>
+  </div>
+</section>
+
+<script type="text/javascript">
+(function() {
+    var onModalClose = function() {
+            $("#help-modal .close-modal").off("click");
+            $("#lean_overlay").off("click");
+            $("#help-modal").attr("aria-hidden", "true");
+            $('area,input,select,textarea,button').removeAttr('tabindex');
+            $(".help-tab a").focus();
+        },
+        cycle_modal_tab = function(from_element_name, to_element_name) {
+            $(from_element_name).on('keydown', function(e) {
+                var keyCode = e.keyCode || e.which;
+                if (keyCode === 9) {
+                    e.preventDefault();
+                    $(to_element_name).focus();
+                }
+            });
+        };
+
+    $(".help-tab").click(function() {
+        $(".field-error").removeClass("field-error");
+        $("#feedback_form")[0].reset();
+        $("#feedback_form input[type='submit']").removeAttr("disabled");
+        $("#feedback_form_wrapper").css("display", "none");
+        $("#feedback_error").css("display", "none");
+        $("#feedback_success_wrapper").css("display", "none");
+        $("#help_wrapper").css("display", "block");
+        $("#help-modal").attr("aria-hidden", "false");
+        $("#help-modal .close-modal").click(onModalClose);
+        $("#lean_overlay").click(onModalClose);
+        $("#help_wrapper .close-modal").focus();
+    });
+    showFeedback = function(event, issue_type, title, subject_label, details_label) {
+        $("#help_wrapper").css("display", "none");
+        $("#feedback_form input[name='issue_type']").val(issue_type);
+        $("#feedback_form_wrapper").css("display", "block");
+        $("#feedback_form_wrapper header").html("<h2>" + title + "</h2><hr>");
+        $("#feedback_form_wrapper label[data-field='subject']").html(subject_label);
+        $("#feedback_form_wrapper label[data-field='details']").html(details_label);
+        $("#feedback_form_wrapper .close-modal").focus();
+        event.preventDefault();
+    };
+    cycle_modal_tab("#feedback_link_question", "#help_wrapper .close-modal");
+    cycle_modal_tab("#feedback_submit", "#feedback_form_wrapper .close-modal");
+    cycle_modal_tab("#feedback-faq-link", "#feedback_success_wrapper .close-modal");
+    $("#help-modal").on("keydown", function(e) {
+        var keyCode = e.keyCode || e.which;
+        if (keyCode === 27) {
+            e.preventDefault();
+            $("#help_wrapper .close-modal").click();
+        }
+    });
+    $("#feedback_link_problem").click(function(event) {
+        showFeedback(
+            event,
+            "problem",
+            "Report a Problem",
+            "Brief description of the problem" + "*",
+            "Details of the problem you are encountering" + "*" + "<span class='tip'>" +
+              "Include error messages, steps which lead to the issue, etc." + "</span>"
+        );
+    });
+    $("#feedback_link_suggestion").click(function(event) {
+        showFeedback(
+            event,
+            "suggestion",
+            "Make a Suggestion",
+            "Brief description of your suggestion" + "*",
+            "Details" + "*"
+        );
+    });
+    $("#feedback_link_question").click(function(event) {
+        showFeedback(
+            event,
+            "question",
+            "Ask a Question",
+            "Brief summary of your question" + "*",
+            "Details" + "*"
+        );
+    });
+    $("#feedback_form").submit(function() {
+        $("input[type='submit']", this).attr("disabled", "disabled");
+        $('area,input,select,textarea,button').attr('tabindex', -1);
+        $("#feedback_form_wrapper .close-modal").focus();
+    });
+    $("#feedback_form").on("ajax:complete", function() {
+        $("input[type='submit']", this).removeAttr("disabled");
+    });
+    $("#feedback_form").on("ajax:success", function(event, data, status, xhr) {
+        $("#feedback_form_wrapper").css("display", "none");
+        $("#feedback_success_wrapper").css("display", "block");
+        $("#feedback_success_wrapper").focus();
+    });
+    $("#feedback_form").on("ajax:error", function(event, xhr, status, error) {
+        $(".field-error").removeClass("field-error").removeAttr("aria-invalid");
+        var responseData;
+        try {
+            responseData = jQuery.parseJSON(xhr.responseText);
+        } catch(err) {
+        }
+        if (responseData) {
+            $("[data-field='"+responseData.field+"']").addClass("field-error").attr("aria-invalid", "true");
+            $("#feedback_error").html(responseData.error).stop().css("display", "block");
+        } else {
+            // If no data (or malformed data) is returned, a server error occurred
+            htmlStr = "An error has occurred.";
+            htmlStr += " " + _.template(
+              "Please {link_start}send us e-mail{link_end}.",
+              {link_start: '<a href="#" id="feedback_email">', link_end: '</a>'},
+              {interpolate: /\{(.+?)\}/g})
+            $("#feedback_error").html(htmlStr).stop().css("display", "block");
+            $("#feedback_email").click(function(e) {
+                mailto = "mailto:" + "bugs@edx.org" +
+                    "?subject=" + $("#feedback_form input[name='subject']").val() +
+                    "&body=" + $("#feedback_form textarea[name='details']").val();
+                window.open(mailto);
+                e.preventDefault();
+            });
+        }
+        // Make change explicit to assistive technology
+        $("#feedback_error").focus();
+    });
+})(this)
+</script>
+
+
+
+
+    <div class="content-wrapper" id="content">
+      
+
+
+
+
+
+
+
+
+<script type="text/template" id="image-modal-tpl">
+    <div class="wrapper-modal wrapper-modal-image">
+  <section class="image-link">
+    <%= smallHTML%>
+    <a href="#" class="modal-ui-icon action-fullscreen" role="button">
+      <span class="label">
+        <i class="icon fa fa-arrows-alt fa-large"></i> <%= gettext("Fullscreen") %>
+      </span>
+    </a>
+  </section>
+
+  <section class="image-modal">
+    <section class="image-content">
+      <div class="image-wrapper">
+        <img alt="<%= largeALT %>, <%= gettext('Large') %>" src="<%= largeSRC %>" />
+      </div>
+
+      <a href="#" class="modal-ui-icon action-close" role="button">
+        <span class="label">
+          <i class="icon fa fa-remove fa-large"></i> <%= gettext("Close") %>
+        </span>
+      </a>
+
+      <ul class="image-controls">
+        <li class="image-control">
+          <a href="#" class="modal-ui-icon action-zoom-in" role="button">
+            <span class="label">
+              <i class="icon fa fa fa-search-plus fa-large"></i> <%= gettext("Zoom In") %>
+            </span>
+          </a>
+        </li>
+
+        <li class="image-control">
+          <a href="#" class="modal-ui-icon action-zoom-out is-disabled" aria-disabled="true" role="button">
+            <span class="label">
+              <i class="icon fa fa fa-search-minus fa-large"></i> <%= gettext("Zoom Out") %>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </section>
+</div>
+
+</script>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<nav class="courseware wrapper-course-material" aria-label="Course Material">
+  <div class="course-material">
+    <ol class="course-tabs">
+        
+          <li>
+             <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware" class="active">
+                 Courseware
+                   <span class="sr">, current location</span>
+             </a>
+          </li>
+        
+          <li>
+             <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/info" class="">
+                 Course Info
+             </a>
+          </li>
+        
+          <li>
+             <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/576601d4282341f99ac7956718cc2301/" class="">
+                 Course Staff
+             </a>
+          </li>
+        
+          <li>
+             <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/fbe63aa3c95948e3912fa128aedec27d/" class="">
+                 Syllabus
+             </a>
+          </li>
+        
+          <li>
+             <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/f206cd7798de4ef98aabba76d321b014/" class="">
+                 Piazza Discussion Group
+             </a>
+          </li>
+        
+          <li>
+             <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/course_wiki" class="">
+                 Wiki
+             </a>
+          </li>
+        
+          <li>
+             <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/progress" class="">
+                 Progress
+             </a>
+          </li>
+        
+          <li>
+             <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/discussion/forum" class="">
+                 Discussion
+             </a>
+          </li>
+      
+    </ol>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="course-wrapper">
+
+    <div class="course-index" role="navigation">
+      <header id="open_close_accordion">
+        <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#">close</a>
+      </header>
+
+
+      <div id="accordion" style="" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+        <nav aria-label="Course Navigation">
+            
+
+
+
+    
+  <div class="chapter">
+      
+      <h3 aria-label="Week 1 - Data Science Background and Course Software Setup" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion-header-0" aria-controls="ui-accordion-accordion-panel-0" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+        <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#">Week 1 - Data Science Background and Course Software&nbsp;Setup</a>
+      </h3>
+
+    <ul class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-0" aria-labelledby="ui-accordion-accordion-header-0" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+          <li class=" ">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/d1f293d0cb53466dbb5c0cd81f55b45b/a8482182209e4148811ac58f68a6182f/">
+              <p>Welcome to CS100.1x </p>
+              
+              <p class="subtitle"></p>
+
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/d1f293d0cb53466dbb5c0cd81f55b45b/920d3370060540c8b21d56f05c64bdda/">
+              <p>Setting up the Course Software Environment  (Due June 6, 2015 at 00:00 UTC) </p>
+              
+              <p class="subtitle">Setup</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" ">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/d1f293d0cb53466dbb5c0cd81f55b45b/ba9013727f6841e5915503f0e7dad68d/">
+              <p>(Optional) Survey about your machine and setup experience </p>
+              
+              <p class="subtitle"></p>
+
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/d1f293d0cb53466dbb5c0cd81f55b45b/fe9a95cc542d4c30b855e632663c4797/">
+              <p>Lecture 1: Introduction to Big Data and Data Science </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/d1f293d0cb53466dbb5c0cd81f55b45b/3cf61a8718fe4ad5afcd8fb35ceabb6e/">
+              <p>Lecture 2: Performing Data Science and Preparing Data </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+    </ul>
+  </div>
+
+    
+  <div class="chapter">
+      
+      <h3 aria-label="Week 2 - Introduction to Apache Spark" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion-header-1" aria-controls="ui-accordion-accordion-panel-1" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+        <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#">Week 2 - Introduction to Apache&nbsp;Spark</a>
+      </h3>
+
+    <ul class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-1" aria-labelledby="ui-accordion-accordion-header-1" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/9d251397874d4f0b947b606c81ccf83c/e0fcf807affe44a084d61146c059d709/">
+              <p>Lecture 3: Big Data, Hardware Trends, and Apache Spark </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/9d251397874d4f0b947b606c81ccf83c/736a2f5af227429d9abbff9527f9a3e3/">
+              <p>Lecture 4: Spark Essentials </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/9d251397874d4f0b947b606c81ccf83c/035f696c1172403f9253736f5dc2dccb/">
+              <p>Lab 1 - Learning Apache Spark (Due June 12, 2015 at 00:00 UTC) </p>
+              
+              <p class="subtitle">Lab</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+    </ul>
+  </div>
+
+    
+  <div class="chapter">
+      
+      <h3 aria-label="Week 3 - Data Management" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion-header-2" aria-controls="ui-accordion-accordion-panel-2" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+        <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#">Week 3 - Data&nbsp;Management</a>
+      </h3>
+
+    <ul class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-2" aria-labelledby="ui-accordion-accordion-header-2" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/b2e31dfc565c467099fd9277e28448d8/2ea3e1a7d88948deaeccd3677e50907d/">
+              <p>Lecture 5: Semi-Structured Data </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/b2e31dfc565c467099fd9277e28448d8/28064c91987048aabde499c1b17a30ff/">
+              <p>Lecture 6: Structured Data </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/b2e31dfc565c467099fd9277e28448d8/b6f4406da3dd497c8480f5ccb5aefc61/">
+              <p>Lab 2 - Web Server Log Analysis with Apache Spark (Due Jun 19, 2015 at 00:00 UTC) </p>
+              
+              <p class="subtitle">Lab</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+    </ul>
+  </div>
+
+    
+  <div class="chapter">
+      
+      <h3 aria-label="Week 4 - Data Quality, Exploratory Data Analysis, and Machine Learning" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-accordion-header-3" aria-controls="ui-accordion-accordion-panel-3" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+        <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#">Week 4 - Data Quality, Exploratory Data Analysis, and Machine&nbsp;Learning</a>
+      </h3>
+
+    <ul class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-accordion-accordion-panel-3" aria-labelledby="ui-accordion-accordion-header-3" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/00eb8b17939b4889a41a6d8d2f35db83/51aef0a42a0b48e5874ff3192892c1f7/">
+              <p>Lecture 7: Data Quality </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/00eb8b17939b4889a41a6d8d2f35db83/3bd3bba368be4102b40780550d3d8da6/">
+              <p>Lecture 8: Exploratory Data Analysis and Machine Learning </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/00eb8b17939b4889a41a6d8d2f35db83/9bb139b3a2164c58b0b5543ab96092df/">
+              <p>Lab 3 - Text Analysis and Entity Resolution (Due June 26, 2015 at 00:00 UTC) </p>
+              
+              <p class="subtitle">Lab</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/00eb8b17939b4889a41a6d8d2f35db83/d8d1d9e4f9cb41d192096837664cf978/">
+              <p>Lab 3 Quiz Questions </p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+    </ul>
+  </div>
+
+    
+  <div class="chapter is-open">
+      
+      <h3 class="active ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons" aria-label="Week 5 - Lab 4 Introduction to Machine Learning with Apache Spark, current chapter" role="tab" id="ui-accordion-accordion-header-4" aria-controls="ui-accordion-accordion-panel-4" aria-selected="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>
+        <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#">Week 5 - Lab 4 Introduction to Machine Learning with Apache&nbsp;Spark</a>
+      </h3>
+
+    <ul class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-accordion-accordion-panel-4" aria-labelledby="ui-accordion-accordion-header-4" role="tabpanel" aria-expanded="true" aria-hidden="false" style="">
+          <li class=" graded">
+            <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/f57237079dcd4c6f8945284a11509766/">
+              <p>Lab 4 - Introduction to Machine Learning with Apache Spark (Due July 3, 2015 at 00:00 UTC) </p>
+              
+              <p class="subtitle">Lab</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+          <li class="active graded">
+            <a href="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX.html">
+              <p>Lab 4 Quiz Questions <span class="sr">, current section</span></p>
+              
+              <p class="subtitle">Quizzes</p>
+
+                  <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/graded.png" alt="Graded Section">
+            </a>
+          </li>
+    </ul>
+  </div>
+
+
+        </nav>
+      </div>
+
+    </div>
+    <section class="course-content" id="course-content" role="main" aria-label="“Content”">
+
+      <div class="xblock xblock-student_view xblock-student_view-sequential xmodule_display xmodule_SequenceModule xblock-initialized" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="sequential" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_sequential;_7ea77389c252451d828c8bd0b72ccf91" data-type="Sequence" data-course-id="BerkeleyX/CS100.1x/1T2015">
+  
+  
+
+<div id="sequence_i4x-BerkeleyX-CS100_1x-sequential-7ea77389c252451d828c8bd0b72ccf91" class="sequence" data-id="i4x://BerkeleyX/CS100.1x/sequential/7ea77389c252451d828c8bd0b72ccf91" data-position="1" data-ajax-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_sequential;_7ea77389c252451d828c8bd0b72ccf91/handler/xmodule_handler">
+  <div class="sequence-nav">
+    <button class="sequence-nav-button button-previous disabled" disabled="disabled"><span class="icon fa fa-chevron-left" aria-hidden="true"></span><span class="sr">Previous</span></button>
+    <nav class="sequence-list-wrapper" aria-label="Unit">
+      <ol id="sequence-list" style="left: 0.181818246841431px;">
+        <li>
+        <a class="seq_problem active progress-some" data-id="i4x://BerkeleyX/CS100.1x/vertical/62806950d9964ddf9affde9f60a0a596" data-element="1" href="javascript:void(0);" title="Lab 4 Quiz Questions
+Part (2b) Root Mean Square Error (RMSE)
+Part (2b) Root Mean Square Error (RMSE)
+Part (2e) Comparing your Model
+Survey: Lab 4 Completion Time" data-page-title="Lab 4 Quiz Questions" aria-controls="seq_contents_0" id="tab_0" tabindex="0">
+            <i class="icon fa seq_problem" aria-hidden="true"></i>
+            <p><span class="sr">problem</span> Lab 4 Quiz Questions
+Part (2b) Root Mean Square Error (RMSE)
+Part (2b) Root Mean Square Error (RMSE)
+Part (2e) Comparing your Model
+Survey: Lab 4 Completion Time</p>
+          </a>
+        </li>
+      </ol>
+    <div class="left-shadow" style="opacity: 0;"></div><div class="right-shadow" style="opacity: 0;"></div></nav>
+    <button class="sequence-nav-button button-next disabled" disabled="disabled"><span class="icon fa fa-chevron-right" aria-hidden="true"></span><span class="sr">Next</span></button>
+  </div>
+
+  <div class="sr-is-focusable" tabindex="-1"></div>
+
+  <div id="seq_contents_0" aria-labelledby="tab_0" aria-hidden="true" class="seq_contents tex2jax_ignore asciimath2jax_ignore">
+    &lt;div class="xblock xblock-student_view xblock-student_view-vertical" data-request-token="f415a022236a11e5954b0ae4c833c769" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_vertical;_62806950d9964ddf9affde9f60a0a596" data-block-type="vertical" data-course-id="BerkeleyX/CS100.1x/1T2015"&gt;
+  &lt;div class="vert-mod"&gt;
+  &lt;div class="vert vert-0" data-id="i4x://BerkeleyX/CS100.1x/html/69048b9a16f44f2d8a197419f11155ee"&gt;
+    &lt;div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlModule" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="html" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_html;_69048b9a16f44f2d8a197419f11155ee" data-type="HTMLModule" data-course-id="BerkeleyX/CS100.1x/1T2015"&gt;
+  &lt;script type="json/xblock-args" class="xblock-json-init-args"&gt;
+    {"xmodule-type": "HTMLModule"}
+  &lt;/script&gt;
+  &lt;p&gt;You should complete Lab 4 before answering these quiz questions.&lt;/p&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class="vert vert-1" data-id="i4x://BerkeleyX/CS100.1x/problem/735347ae27ef4f258d3470f492ae40bc"&gt;
+    &lt;div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="problem" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_problem;_735347ae27ef4f258d3470f492ae40bc" data-type="Problem" data-course-id="BerkeleyX/CS100.1x/1T2015"&gt;
+  &lt;script type="json/xblock-args" class="xblock-json-init-args"&gt;
+    {"xmodule-type": "Problem"}
+  &lt;/script&gt;
+  &lt;div id="problem_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc" class="problems-wrapper" data-problem-id="i4x://BerkeleyX/CS100.1x/problem/735347ae27ef4f258d3470f492ae40bc" data-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_problem;_735347ae27ef4f258d3470f492ae40bc/handler/xmodule_handler" data-progress_status="none" data-progress_detail="0/1"&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class="vert vert-2" data-id="i4x://BerkeleyX/CS100.1x/problem/575d61f4b1b0434fbbf6a8a7f74e306b"&gt;
+    &lt;div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="problem" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_problem;_575d61f4b1b0434fbbf6a8a7f74e306b" data-type="Problem" data-course-id="BerkeleyX/CS100.1x/1T2015"&gt;
+  &lt;script type="json/xblock-args" class="xblock-json-init-args"&gt;
+    {"xmodule-type": "Problem"}
+  &lt;/script&gt;
+  &lt;div id="problem_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b" class="problems-wrapper" data-problem-id="i4x://BerkeleyX/CS100.1x/problem/575d61f4b1b0434fbbf6a8a7f74e306b" data-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_problem;_575d61f4b1b0434fbbf6a8a7f74e306b/handler/xmodule_handler" data-progress_status="none" data-progress_detail="0/1"&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class="vert vert-3" data-id="i4x://BerkeleyX/CS100.1x/problem/137a40d3e9dd4d09b8529366cf4aee55"&gt;
+    &lt;div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="problem" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_problem;_137a40d3e9dd4d09b8529366cf4aee55" data-type="Problem" data-course-id="BerkeleyX/CS100.1x/1T2015"&gt;
+  &lt;script type="json/xblock-args" class="xblock-json-init-args"&gt;
+    {"xmodule-type": "Problem"}
+  &lt;/script&gt;
+  &lt;div id="problem_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55" class="problems-wrapper" data-problem-id="i4x://BerkeleyX/CS100.1x/problem/137a40d3e9dd4d09b8529366cf4aee55" data-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_problem;_137a40d3e9dd4d09b8529366cf4aee55/handler/xmodule_handler" data-progress_status="none" data-progress_detail="0/1"&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class="vert vert-4" data-id="i4x://BerkeleyX/CS100.1x/problem/510615d0e25843c9bb8b4ffaa036e7e4"&gt;
+    &lt;div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="problem" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_problem;_510615d0e25843c9bb8b4ffaa036e7e4" data-type="Problem" data-course-id="BerkeleyX/CS100.1x/1T2015"&gt;
+  &lt;script type="json/xblock-args" class="xblock-json-init-args"&gt;
+    {"xmodule-type": "Problem"}
+  &lt;/script&gt;
+  &lt;div id="problem_i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4" class="problems-wrapper" data-problem-id="i4x://BerkeleyX/CS100.1x/problem/510615d0e25843c9bb8b4ffaa036e7e4" data-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_problem;_510615d0e25843c9bb8b4ffaa036e7e4/handler/xmodule_handler" data-progress_status="none" data-progress_detail="0/1"&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+  </div>
+  <div id="seq_content" aria-labelledby="tab_0">
+    <div class="xblock xblock-student_view xblock-student_view-vertical xblock-initialized" data-request-token="f415a022236a11e5954b0ae4c833c769" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_vertical;_62806950d9964ddf9affde9f60a0a596" data-block-type="vertical" data-course-id="BerkeleyX/CS100.1x/1T2015">
+  <div class="vert-mod">
+  <div class="vert vert-0" data-id="i4x://BerkeleyX/CS100.1x/html/69048b9a16f44f2d8a197419f11155ee">
+    <div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlModule xblock-initialized" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="html" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_html;_69048b9a16f44f2d8a197419f11155ee" data-type="HTMLModule" data-course-id="BerkeleyX/CS100.1x/1T2015">
+  
+  <p>You should complete Lab 4 before answering these quiz questions.</p>
+</div>
+
+  </div>
+  <div class="vert vert-1" data-id="i4x://BerkeleyX/CS100.1x/problem/735347ae27ef4f258d3470f492ae40bc">
+    <div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule xblock-initialized" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="problem" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_problem;_735347ae27ef4f258d3470f492ae40bc" data-type="Problem" data-course-id="BerkeleyX/CS100.1x/1T2015">
+  
+  <div id="problem_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc" class="problems-wrapper showed" data-problem-id="i4x://BerkeleyX/CS100.1x/problem/735347ae27ef4f258d3470f492ae40bc" data-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_problem;_735347ae27ef4f258d3470f492ae40bc/handler/xmodule_handler" data-progress_status="none" data-progress_detail="0/1" aria-busy="false" aria-live="off" aria-atomic="false">
+
+
+<h2 class="problem-header">
+  Part (2b) Root Mean Square Error (RMSE)
+</h2>
+
+<div class="problem-progress">(1/1 point)</div>
+
+<div class="problem">
+    <div aria-live="polite">
+        <div>
+<p>If your model perfectly predicts the user ratings, what will the Root Mean Square Error be?</p>
+<span><form class="choicegroup capa_inputtype" id="inputtype_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1">
+    <fieldset role="radiogroup" aria-label="If your model perfectly predicts the user ratings, what will the Root Mean Square Error be?">
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_0">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_0" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" value="choice_0"> NaN (Not a Number)
+
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_1" class="choicegroup_correct" correct_answer="true">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_1" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" value="choice_1" checked="true"> 0
+
+            <span class="sr status">0 - correct</span>
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_2">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_2" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" value="choice_2"> 0.5
+
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_3">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_3" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" value="choice_3"> 1
+
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_4">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1_choice_4" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1" value="choice_4"> Square root of two
+
+        </label>
+        <span id="answer_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_2_1"></span>
+    </fieldset>
+    <div class="indicator-container">
+    </div>
+</form></span>
+
+<section class="solution-span">
+ <span id="solution_i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_solution_1"><solution id="i4x-BerkeleyX-CS100_1x-problem-735347ae27ef4f258d3470f492ae40bc_solution_1">
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>If the model perfectly predicts the ratings, the residuals will all be zero, so the RMSE will be zero.</p>
+
+</div>
+</solution>
+
+</span>
+</section></div>
+    </div>
+  <div class="action">
+    <input type="hidden" name="problem_id" value="Part (2b) Root Mean Square Error (RMSE)">
+    <button class="check Check" data-checking="Checking..." data-value="Check" aria-disabled="false"><span class="check-label">Check</span><span class="sr"> your answer</span></button>
+    <button class="show"><span class="show-label">Hide Answer</span> </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+  </div>
+  <div class="vert vert-2" data-id="i4x://BerkeleyX/CS100.1x/problem/575d61f4b1b0434fbbf6a8a7f74e306b">
+    <div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule xblock-initialized" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="problem" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_problem;_575d61f4b1b0434fbbf6a8a7f74e306b" data-type="Problem" data-course-id="BerkeleyX/CS100.1x/1T2015">
+  
+  <div id="problem_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b" class="problems-wrapper showed" data-problem-id="i4x://BerkeleyX/CS100.1x/problem/575d61f4b1b0434fbbf6a8a7f74e306b" data-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_problem;_575d61f4b1b0434fbbf6a8a7f74e306b/handler/xmodule_handler" data-progress_status="none" data-progress_detail="0/1" aria-busy="false" aria-live="off" aria-atomic="false">
+
+
+<h2 class="problem-header">
+  Part (2b) Root Mean Square Error (RMSE)
+</h2>
+
+<div class="problem-progress">(1/1 point)</div>
+
+<div class="problem">
+    <div aria-live="polite">
+        <div>
+<p>If all of the predicted ratings are off by one (that is they are 1 higher or lower than the actual ratings), what will the RMSE be?</p>
+<span><form class="choicegroup capa_inputtype" id="inputtype_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1">
+    <fieldset role="radiogroup" aria-label="If all of the predicted ratings are off by one (that is they are 1 higher or lower than the actual ratings), what will the RMSE be?">
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_0">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_0" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" value="choice_0"> NaN (Not a Number)
+
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_1">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_1" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" value="choice_1"> 0
+
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_2">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_2" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" value="choice_2"> 0.5
+
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_3" class="choicegroup_correct" correct_answer="true">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_3" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" value="choice_3" checked="true"> 1
+
+            <span class="sr status">1 - correct</span>
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_4">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1_choice_4" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1" value="choice_4"> Square root of two
+
+        </label>
+        <span id="answer_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_2_1"></span>
+    </fieldset>
+    <div class="indicator-container">
+    </div>
+</form></span>
+
+<section class="solution-span">
+ <span id="solution_i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_solution_1"><solution id="i4x-BerkeleyX-CS100_1x-problem-575d61f4b1b0434fbbf6a8a7f74e306b_solution_1">
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>If all values are off by one, the residuals will all be plus or minus 1, so the RMSE will be one.</p>
+
+</div>
+</solution>
+</span>
+</section></div>
+    </div>
+  <div class="action">
+    <input type="hidden" name="problem_id" value="Part (2b) Root Mean Square Error (RMSE)">
+    <button class="check Check" data-checking="Checking..." data-value="Check" aria-disabled="false"><span class="check-label">Check</span><span class="sr"> your answer</span></button>
+    <button class="show"><span class="show-label">Hide Answer</span> </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+  </div>
+  <div class="vert vert-3" data-id="i4x://BerkeleyX/CS100.1x/problem/137a40d3e9dd4d09b8529366cf4aee55">
+    <div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule xblock-initialized" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="problem" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_problem;_137a40d3e9dd4d09b8529366cf4aee55" data-type="Problem" data-course-id="BerkeleyX/CS100.1x/1T2015">
+  
+  <div id="problem_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55" class="problems-wrapper showed" data-problem-id="i4x://BerkeleyX/CS100.1x/problem/137a40d3e9dd4d09b8529366cf4aee55" data-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_problem;_137a40d3e9dd4d09b8529366cf4aee55/handler/xmodule_handler" data-progress_status="none" data-progress_detail="0/1" aria-busy="false" aria-live="off" aria-atomic="false">
+
+
+<h2 class="problem-header">
+  Part (2e) Comparing your Model
+</h2>
+
+<div class="problem-progress">(1/1 point)</div>
+
+<div class="problem">
+    <div aria-live="polite">
+        <div>
+<p>How do your model's predicted ratings compare to using the average rating?</p>
+<span><form class="choicegroup capa_inputtype" id="inputtype_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1">
+    <fieldset role="radiogroup" aria-label="How do your model&#39;s predicted ratings compare to using the average rating?">
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1_choice_0">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1_choice_0" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1" value="choice_0"> The model is less accurate than using the average rating
+
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1_choice_1">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1_choice_1" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1" value="choice_1"> The model has comparable accuracy to using the average rating
+
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1_choice_2" class="choicegroup_correct" correct_answer="true">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1_choice_2" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1" value="choice_2" checked="true"> The model is more accurate than using the average rating
+
+            <span class="sr status">The model is more accurate than using the average rating - correct</span>
+        </label>
+        <label for="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1_choice_3">
+            <input type="radio" name="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1_choice_3" aria-role="radio" aria-describedby="answer_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1" value="choice_3"> The model cannot be compared with using the average rating
+
+        </label>
+        <span id="answer_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_2_1"></span>
+    </fieldset>
+    <div class="indicator-container">
+    </div>
+</form></span>
+
+<section class="solution-span">
+ <span id="solution_i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_solution_1"><solution id="i4x-BerkeleyX-CS100_1x-problem-137a40d3e9dd4d09b8529366cf4aee55_solution_1">
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Your model more accurately predicts the ratings than using just the average rating, as the model's RMSE is significantly lower than the RMSE when using the average rating.</p>
+
+</div>
+</solution>
+
+</span>
+</section></div>
+    </div>
+  <div class="action">
+    <input type="hidden" name="problem_id" value="Part (2e) Comparing your Model">
+    <button class="check Check" data-checking="Checking..." data-value="Check" aria-disabled="false"><span class="check-label">Check</span><span class="sr"> your answer</span></button>
+    <button class="show"><span class="show-label">Hide Answer</span> </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+  </div>
+  <div class="vert vert-4" data-id="i4x://BerkeleyX/CS100.1x/problem/510615d0e25843c9bb8b4ffaa036e7e4">
+    <div class="xblock xblock-student_view xblock-student_view-problem xmodule_display xmodule_CapaModule xblock-initialized" data-runtime-class="LmsRuntime" data-init="XBlockToXModuleShim" data-block-type="problem" data-request-token="f415a022236a11e5954b0ae4c833c769" data-runtime-version="1" data-usage-id="i4x:;_;_BerkeleyX;_CS100.1x;_problem;_510615d0e25843c9bb8b4ffaa036e7e4" data-type="Problem" data-course-id="BerkeleyX/CS100.1x/1T2015">
+  
+  <div id="problem_i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4" class="problems-wrapper" data-problem-id="i4x://BerkeleyX/CS100.1x/problem/510615d0e25843c9bb8b4ffaa036e7e4" data-url="/courses/BerkeleyX/CS100.1x/1T2015/xblock/i4x:;_;_BerkeleyX;_CS100.1x;_problem;_510615d0e25843c9bb8b4ffaa036e7e4/handler/xmodule_handler" data-progress_status="none" data-progress_detail="0/1">
+
+
+<h2 class="problem-header">
+  Survey: Lab 4 Completion Time
+</h2>
+
+<div class="problem-progress">(1 point possible)</div>
+
+<div class="problem">
+    <div aria-live="polite">
+        <div>
+<p>How long did Lab FOUR take you to complete (in hours - decimals are OK)?</p>
+<span><section id="formulaequationinput_i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1" class="inputtype formulaequationinput">
+  <div class="unanswered" id="status_i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1">
+    <input type="text" name="input_i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1" id="input_i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1" data-input-id="i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1" value="" aria-label="How long did Lab FOUR take you to complete (in hours - decimals are OK)?" aria-describedby="i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1_status" size="20">
+
+      <span class="status" id="i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1_status" data-tooltip="This is unanswered.">
+        <span class="sr">
+          unanswered
+        </span>
+      </span>
+
+      <div id="input_i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1_preview" class="equation">
+        <span class="MathJax_Preview"></span><div class="MathJax_Display" tabindex="0" aria-live="off" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame"><nobr><span class="math" id="MathJax-Span-1" style="width: 0.003em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.003em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(3.833em 1000.003em 4.136em -0.451em); top: -3.979em; left: 0.003em;"><span class="mrow" id="MathJax-Span-2"></span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.128em; vertical-align: -0.059em;"></span></span></nobr></span></div><script type="math/tex; mode=display" id="MathJax-Element-1"></script>
+        <img src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/spinner.bc34f953403f.gif" class="loading" alt="Loading" style="visibility: hidden;">
+      </div>
+    <p id="answer_i4x-BerkeleyX-CS100_1x-problem-510615d0e25843c9bb8b4ffaa036e7e4_2_1" class="answer"></p>
+  </div>
+
+  
+
+</section></span>
+
+<p>_____________________________________________________________________________________________________</p>
+
+<p>Please click "Check" to save your answers.</p>
+
+
+</div>
+    </div>
+  <div class="action">
+    <input type="hidden" name="problem_id" value="Survey: Lab 4 Completion Time">
+    <button class="check Check" data-checking="Checking..." data-value="Check"><span class="check-label">Check</span><span class="sr"> your answer</span></button>
+  </div>
+</div>
+</div>
+
+</div>
+
+  </div>
+</div>
+
+</div>
+
+  </div>
+
+  <nav class="sequence-bottom" aria-label="Section">
+    <button class="sequence-nav-button button-previous disabled" disabled="disabled"><span class="icon fa fa-chevron-left" aria-hidden="true"></span><span class="sr">Previous</span></button>
+    <button class="sequence-nav-button button-next disabled" disabled="disabled"><span class="icon fa fa-chevron-right" aria-hidden="true"></span><span class="sr">Next</span></button>
+  </nav>
+</div>
+
+
+
+<script type="text/javascript">
+  var sequenceNav;
+  $(document).ready(function() {
+    sequenceNav = new SequenceNav($('.sequence-nav'));
+  });
+</script>
+
+</div>
+
+    </section>
+  </div>
+</div>
+<div class="container-footer">
+    <div class="course-license">
+      
+
+
+    
+    <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+        <span class="sr">Creative Commons licensed content, with terms as follow:&nbsp;</span><i aria-hidden="true" class="icon-cc"></i>
+            <span class="sr">Attribution&nbsp;</span><i aria-hidden="true" class="icon-cc-by"></i>
+            <span class="sr">Noncommercial&nbsp;</span><i aria-hidden="true" class="icon-cc-nc"></i>
+            <span class="sr">Share Alike&nbsp;</span><i aria-hidden="true" class="icon-cc-sa"></i>
+        <span class="license-text">Some Rights Reserved</span>
+    </a>
+
+    </div>
+</div>
+
+<nav class="nav-utilities " aria-label="Course Utilities">
+
+
+</nav>
+
+
+<div id="accessibile-confirm-modal" class="modal" aria-hidden="true">
+  <div class="inner-wrapper" role="dialog" aria-labelledby="accessibile-confirm-title">
+    <button class="close-modal">
+      <i class="icon fa fa-remove"></i>
+      <span class="sr">
+        Close
+      </span>
+    </button>
+
+    <header>
+      <h2 id="accessibile-confirm-title">
+          Confirm
+        <span class="sr">,
+          modal open
+        </span>
+      </h2>
+    </header>
+    <div role="alertdialog" class="status message" tabindex="-1">
+        <p class="message-title"></p>
+    </div>
+    <hr aria-hidden="true">
+    <div class="actions">
+        <button class="dismiss ok-button">OK</button>
+        <button class="dismiss cancel-button" data-dismiss="leanModal">Cancel</button>
+    </div>
+  </div>
+  <a href="https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/80e5487245874eeba0447fbf9e133faf/7ea77389c252451d828c8bd0b72ccf91/#accessibile-confirm-modal" rel="leanModal" id="confirm_open_button" style="display:none">open</a>
+</div>
+
+<script type="text/javascript">
+var accessible_confirm = function(message, callback) {
+    $("#accessibile-confirm-modal .cancel-button").click(function(){
+        $("#accessibile-confirm-modal .close-modal").click();
+    });
+    $("#accessibile-confirm-modal .ok-button").click(function(){
+        $("#accessibile-confirm-modal .close-modal").click();
+        callback();
+    });
+
+    accessible_modal("#accessibile-confirm-modal #confirm_open_button", "#accessibile-confirm-modal .close-modal", "#accessibile-confirm-modal", ".content-wrapper");
+    $("#accessibile-confirm-modal #confirm_open_button").click();
+    $("#accessibile-confirm-modal .message-title").html(message);
+};
+</script>
+
+
+      
+    </div>
+
+        
+
+  
+                
+
+
+
+<footer id="footer-edx-v3" role="contentinfo" aria-label="Page Footer">
+    <h2 class="sr footer-about-title">About edX</h2>
+    <div class="footer-content-wrapper">
+      <div class="footer-logo">
+          <img alt="edX logo" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/edx-header-logo.517a627deaad.png">
+      </div>
+
+      <div class="site-details">
+          <nav class="site-nav" aria-label="About edX">
+              <a href="https://www.edx.org/about-us">About</a>
+              <a href="https://www.edx.org/edx-blog">Blog</a>
+              <a href="https://www.edx.org/news-announcements">News</a>
+              <a href="https://www.edx.org/student-faq">FAQs</a>
+              <a href="https://www.edx.org/contact">Contact</a>
+              <a href="https://www.edx.org/jobs">Jobs</a>
+              <a href="https://www.edx.org/donate">Donate</a>
+              <a href="https://www.edx.org/sitemap">Sitemap</a>
+          </nav>
+          <nav class="legal-notices" aria-label="Legal">
+              <a href="https://www.edx.org/edx-terms-service">Terms of Service &amp; Honor Code</a>
+              <a href="https://www.edx.org/edx-privacy-policy">Privacy Policy</a>
+              <a href="https://www.edx.org/accessibility">Accessibility Policy</a>
+          </nav>
+          <p class="copyright">© edX Inc.  All rights reserved except where noted.  EdX, Open edX and the edX and Open EdX logos are registered trademarks or trademarks of edX Inc.</p>
+
+          <div class="openedx-link">
+            <a href="http://open.edx.org/" title="Powered by Open edX">
+              <img alt="Powered by Open edX" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/edx-openedx-logo-tag.png" width="140">
+            </a>
+          </div>
+      </div>
+
+      <div class="external-links">
+        <div class="social-media-links">
+          <a href="http://www.facebook.com/EdxOnline" class="sm-link external" title="Facebook" rel="noreferrer">
+            <span class="icon fa fa-facebook-square" aria-hidden="true"></span>
+            <span class="sr">Like edX on Facebook</span>
+          </a>
+          <a href="https://twitter.com/edXOnline" class="sm-link external" title="Twitter" rel="noreferrer">
+            <span class="icon fa fa-twitter" aria-hidden="true"></span>
+            <span class="sr">Follow edX on Twitter</span>
+          </a>
+          <a href="https://www.youtube.com/user/edxonline?sub_confirmation=1" class="sm-link external" title="Youtube" rel="noreferrer">
+            <span class="icon fa fa-youtube" aria-hidden="true"></span>
+            <span class="sr">Subscribe to the edX YouTube channel</span>
+          </a>
+          <a href="http://www.linkedin.com/company/edx" class="sm-link external" title="LinkedIn" rel="noreferrer">
+            <span class="icon fa fa-linkedin-square" aria-hidden="true"></span>
+            <span class="sr">Follow edX on LinkedIn</span>
+          </a>
+          <a href="https://plus.google.com/+edXOnline" class="sm-link external" title="Google+" rel="noreferrer">
+            <span class="icon fa fa-google-plus-square" aria-hidden="true"></span>
+            <span class="sr">Follow edX on Google+</span>
+          </a>
+          <a href="http://www.reddit.com/r/edx" class="sm-link external" title="Reddit" rel="noreferrer">
+            <span class="icon fa fa-reddit" aria-hidden="true"></span>
+            <span class="sr">Subscribe to the edX subreddit</span>
+          </a>
+        </div>
+
+        <div class="mobile-app-links">
+          <a href="https://itunes.apple.com/us/app/edx/id945480667?mt=8" class="app-link external">
+            <img alt="Download the edX mobile app from the Apple App Store" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/app_store_badge_135x40.d0558d910630.svg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=org.edx.mobile" class="app-link external">
+            <img alt="Download the edX mobile app from Google Play" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/google_play_badge_45.c02590f4a6f1.png">
+          </a>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+        
+
+  </div><script type="text/javascript" id="" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/3727"></script>
+
+    
+    <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/lms-application.df193053af9b.js" charset="utf-8"></script>
+
+
+    
+    <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/lms-modules.594a67002110.js" charset="utf-8"></script>
+
+
+
+  
+  <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/jquery.scrollTo-1.4.2-min.4aa3e2dfa312.js"></script>
+  <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/jquery.flot.d3d45ff0c6a8.js"></script>
+
+  <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/codemirror-compressed.dd4b74f7c5fe.js"></script>
+
+  
+    <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/lms-courseware.9a114dd93798.js" charset="utf-8"></script>
+
+
+  
+    <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/discussion.f08ab85892c3.js" charset="utf-8"></script>
+
+
+
+  
+
+
+
+<script type="text/x-mathjax-config;executed=true">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [
+        ["\\(","\\)"],
+        ['[mathjaxinline]','[/mathjaxinline]']
+      ],
+      displayMath: [
+        ["\\[","\\]"],
+        ['[mathjax]','[/mathjax]']
+      ]
+    }
+  });
+</script>
+<script type="text/x-mathjax-config;executed=true">
+  window.HUB = MathJax.Hub;
+  MathJax.Hub.signal.Interest(function(message) {
+    if(message[0] === "End Math") {
+        set_mathjax_display_div_settings();
+    }
+  });
+  function set_mathjax_display_div_settings() {
+    $('.MathJax_Display').each(function( index ) {
+      this.setAttribute('tabindex', '0');
+      this.setAttribute('aria-live', 'off');
+      this.removeAttribute('role');
+      this.removeAttribute('aria-readonly');
+    });
+  }
+</script>
+
+
+<!-- This must appear after all mathjax-config blocks, so it is after the imports from the other templates.
+     It can't be run through static.url because MathJax uses crazy url introspection to do lazy loading of
+     MathJax extension libraries -->
+<script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/MathJax.js"></script>
+
+<script type="text/template" id="_inline_discussion">
+
+<section class="discussion" data-discussion-id="{{discussionId}}">
+    <article class="new-post-article"></article>
+
+    <section class="threads">
+        {{#threads}}
+            <article class="discussion-thread" id="thread_{{id}}">
+            </article>
+        {{/threads}}
+    </section>
+
+    <section class="pagination">
+    </section>
+</section>
+</script>
+<script type="text/template" id="_profile_thread">
+
+<article class="discussion-article" data-id="{{id}}">
+    <div class="discussion-post">
+        <header>
+            <h3>{{title}}</h3>
+            <p class="posted-details">                
+                {{#user}}
+                <a href="{{user_url}}" class="username">{{username}}</a>
+                {{/user}}
+                {{^user}}
+                anonymous
+                {{/user}}
+
+                <span class="timeago" title="{{created_at}}">{{created_at}}</span>
+                <span class="post-status-closed top-post-status" style="display: none">
+                    &bull; This thread is closed.
+                </span>
+            </p>
+        </header>
+        <div class="post-body">{{{abbreviatedBody}}}</div>
+    </div>
+    <div class="post-tools">
+        <a href="{{permalink}}">View discussion</a>
+    </div>
+
+</article>
+</script>
+<script type="text/template" id="_pagination">
+
+<nav class="discussion-{{discussiontype}}-paginator discussion-paginator">
+    <ol>
+        {{#previous}}
+        <li><a class="discussion-pagination" href="{{url}}" data-page-number="{{number}}">&lt; Previous</a></li>
+        {{/previous}}
+        {{#first}}
+        <li><a class="discussion-pagination" href="{{url}}" data-page-number="1">1</a></li>
+        {{/first}}
+        {{#leftdots}}
+        <li>…</li>
+        {{/leftdots}}
+
+        {{#lowPages}}
+        <li><a class="discussion-pagination" href="{{url}}" data-page-number="{{number}}">{{number}}</a></li>
+        {{/lowPages}}
+        <li class="current-page"><span>{{page}}</span></li>
+        {{#highPages}}
+        <li><a class="discussion-pagination" href="{{url}}" data-page-number="{{number}}">{{number}}</a></li>
+        {{/highPages}}
+
+        {{#rightdots}}
+        <li>…</li>
+        {{/rightdots}}
+        {{#last}}
+        <li><a class="discussion-pagination" href="{{url}}" data-page-number="{{number}}">{{number}}</a></li>
+        {{/last}}
+        {{#next}}
+        <li><a class="discussion-pagination" href="{{url}}" data-page-number="{{number}}">Next &gt;</a></li>
+        {{/next}}
+    </ol>
+</nav>
+
+</script>
+<script type="text/template" id="_user_profile">
+
+<h2>Active Threads</h2>
+<section class="discussion">
+    {{#threads}}
+        <article class="discussion-thread" id="thread_{{id}}"/>
+    {{/threads}}
+</section>
+<section class="pagination"/>
+</script>
+
+
+  <script type="text/javascript">
+    var $$course_id = "BerkeleyX/CS100.1x/1T2015";
+
+    $(function(){
+        $(".ui-accordion-header a, .ui-accordion-content .subtitle").each(function() {
+          var elemText = $(this).text().replace(/^\s+|\s+$/g,''); // Strip leading and trailing whitespace
+          var wordArray = elemText.split(" ");
+          var finalTitle = "";
+          if (wordArray.length > 0) {
+            for (i=0;i<=wordArray.length-1;i++) {
+              finalTitle += wordArray[i];
+              if (i == (wordArray.length-2)) {
+                finalTitle += "&nbsp;";
+              } else if (i == (wordArray.length-1)) {
+                // Do nothing
+              } else {
+                finalTitle += " ";
+              }
+            }
+          }
+          $(this).html(finalTitle);
+        });
+      });
+  </script>
+
+
+
+
+
+  <script type="text/javascript" src="./Lab 4 Quiz Questions _ Lab 4 Quiz Questions _ CS100.1x Courseware _ edX_files/noreferrer.aa62a3e70ffa.js" charset="utf-8"></script>
+
+
+
+
+
+<!-- Performance beacon for onload times -->
+<script>
+  (function () {
+    var sample_rate = 0.05;
+    var roll = Math.floor(Math.random() * 100)/100;
+    var onloadBeaconSent = false;
+
+    if(roll < sample_rate){
+      $(window).load(function() {
+        setTimeout(function(){
+          var t = window.performance.timing;
+
+          var data = {
+            event: "onload",
+            value: t.loadEventEnd - t.navigationStart,
+            page: window.location.href,
+          };
+
+          if (!onloadBeaconSent) {
+            $.ajax({method: "POST", url: "/performance", data: data});
+          }
+          onloadBeaconSent = true;
+        }, 0);
+      });
+    }
+  }());
+</script>
+<div class="tooltip" style="display: none; opacity: 0;"></div><div id="lean_overlay"></div><div id="reader-feedback" class="sr" style="display:none" aria-hidden="false" aria-atomic="true" aria-live="assertive"><p>Answer: choice_2</p>
+<p>
+</p><p>Explanation</p>
+
+<p>Your model more accurately predicts the ratings than using just the average rating, as the model's RMSE is significantly lower than the RMSE when using the average rating.</p>
+
+<p></p>
+</div><div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Size1, sans-serif;"></div></div></body></html>
