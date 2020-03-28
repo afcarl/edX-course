@@ -6,10 +6,10 @@ This repo contains code and solution for [CS50W -  Web Programming with Python a
 ## Lecture Overview
 
 1. Git
-2. HTML, CSS -  [code](./src1)
-3. FLask - [code](./src2)
-4. SQL - [code](./src3)
-5. ORMs, APIs - [code](./src4)
+2. HTML, CSS - [code](./lectures/src1)
+3. FLask - [code](./lectures/src2)
+4. SQL - [code](./lectures/src3)
+5. ORMs, APIs - [code](./lectures/src4)
 6. JavaScript
 7. Front Ends
 8. Django
@@ -17,4 +17,8 @@ This repo contains code and solution for [CS50W -  Web Programming with Python a
 10. Github, Travis CI
 11. Scalabity
 12. Security
+
+## Projects
+
+- Project 1 - [link](https://docs.cs50.net/web/2020/x/projects/1/project1.html), [code](./projects/project1)
 
